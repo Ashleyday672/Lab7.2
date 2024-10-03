@@ -1,24 +1,10 @@
-# Web Dev Starter Code
+# Lab 7.2
 
 ## Overview
+In this project we formatted a website to have specific required aspects, such as a text wrapped image, navigation bar that scrolls with the items on the page, two column photography section, etc.
 
-TODO: Write a project description
+To view this project, clone this repo into an iDE of your choosing that supports live preview. Start your live preview to view the formatted webpage of this project.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+None for this project other than past projects!
