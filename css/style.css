@@ -1,4 +1,99 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* General body and text styling */
+body {
+  background-color: #f5efe6; 
+  color: #4b3621;
+  margin: 0;
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
+
+/* Images take up 100% of their container */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 200%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+  color: #8b4513; 
+  font-family: 'Georgia', serif; 
+}
+
+/* Main content grid */
+.grid {
+  display: flex; /* Flexbox used to create a two-column layout for article and photography section */
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+}
+
+/* Article and photography section will take up flexible space */
+article {
+  flex: 2; /* Makes article take up more space than photography */
+  margin-right: 20px; /* Adds space between article and photography */
+}
+
+/* Image inside the article to wrap text around it */
+.feature {
+    float: left; /* Text wraps around the image */
+    width: 200px; 
+    margin: 0 20px 20px 0; /* Adds space around the image */
+}
+
+aside {
+  flex: 1; /* Smaller photogtaphy column */
+  background-color: #e3d5c5;
+  padding: 10px;
+  border-radius: 8px; 
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #8b4513;
+  padding: .5em;
+  position: -webkit-sticky; /* Ensures the nav sticks to the top */
+  position: sticky;
+  top: 0; /* Sticks to top when scroll */
+  z-index: 100; /* Ensures it remains above other content */
+}
+
+nav ul {
+  display: flex; /* Horizontal layout */
+  justify-content: space-between; /* Equal space between nav items */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #fff5ee; 
+  text-decoration: none;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #a0522d;
+  border-radius: 5px;
+}
+
+/* Photography section */
+.photo-grid {
+  display: grid; /* Switches to CSS Grid */
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 1px; /* Adds gap between images */
+}
+
+.photo-grid img {
+  width: 100%; /* Images take up the full width of their grid cell */
+  border: 1px solid #8b4513; 
+}
+
+/* Additional styling for article text */
+article p {
+  line-height: 1.6;
+  color: #4b3621; 
 }
